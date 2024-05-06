@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+button {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    border-radius: 12px;
+    text-align: center;
+    width: 200px;
+	height:80px;
+    border-style: solid;
+    border-width: 6px;
+    transition-duration: 0.5s;
+}
+
+button:active {
+    transform: translateY(2px); /* Move button down 2px when pressed */
+    border-color: #aaa; /* Change border color when pressed */
+}
