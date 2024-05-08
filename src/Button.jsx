@@ -1,6 +1,6 @@
 import "./Button.css"
 
-function Button({title,bColor,borColor}) {
+function Button({title,onClick,bColor,borColor}) {
     const style1 = {
         backgroundColor: bColor,
         borderColor: borColor,
@@ -8,7 +8,7 @@ function Button({title,bColor,borColor}) {
     };
 
     return (
-        <button style={style1}>{title}</button>
+        <button style={style1} onClick={onClick}>{title}</button>
     )
 }
 
